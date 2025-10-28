@@ -60,3 +60,12 @@ app.put('/komik/:id', async (req, res) => {
         res.status(500).send(err);
     }
 });
+
+app.delete('/komik/:id', async (req, res) => {
+
+    try {
+        
+    } catch (err) {
+        res.status(500).send(err);
+    }
+});
