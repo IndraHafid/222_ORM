@@ -54,6 +54,8 @@ app.put('/komik/:id', async (req, res) => {
             return res.status(404).send({ message: 'Komik tidak ditemukan' });
         }
 
+        await komik.update(data);
+        res.send({ message: 'Komik berhasil diupdate', komik });
     } catch (err) {
         res.status(500).send(err);
     }
