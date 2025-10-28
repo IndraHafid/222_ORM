@@ -10,6 +10,10 @@ DELETE
 GET
 <img width="1490" height="711" alt="image" src="https://github.com/user-attachments/assets/4bbdcf75-f8eb-49a7-83ac-e3f2af65fc9c" />
 
+DATABASE
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/c151a65e-bd7e-4b59-a07f-fd68828b06a2" />
+
+
 
 
 
