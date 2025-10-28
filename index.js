@@ -43,3 +43,12 @@ app.get('/komik', async (req, res) => {
         res.send(err);
     }
 });
+
+app.put('/komik/:id', async (req, res) => {
+
+    try {
+       
+    } catch (err) {
+        res.status(500).send(err);
+    }
+});
