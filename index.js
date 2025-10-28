@@ -49,7 +49,8 @@ app.put('/komik/:id', async (req, res) => {
     const data = req.body;
 
     try {
-       
+        const komik = await db.Komik.findByPk(id);
+        
     } catch (err) {
         res.status(500).send(err);
     }
